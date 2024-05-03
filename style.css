@@ -27,32 +27,19 @@ body{
 }
 
 
-.social-media a {
-    box-shadow: 0 0 10px 0  rgb(255, 153, 0);
-    background-color: rgb(255, 128, 0) ;
-    color: black;
-    transition: .5s ease;
-}
-
-.social-media a:hover{
-    box-shadow: none;
-    background-color: white;
-
-}
-
-.cv-btn{
+.resume-btn{
+    background-color: rgb(255, 162, 0);
+    border-color: rgb(255, 162, 0);
     box-shadow: 0 0 20px 0  rgb(255, 162, 0);
 }
 
-.cv-btn:hover{
-    box-shadow: none;
+.resume-btn:hover{
+    background-color: darkblue;
 }
 
 section{
     min-height: 100vh;
-    /* background-color: #1f242d; */
-    
-    
+
 }
 
 .home-img{
@@ -93,7 +80,6 @@ section{
 }
 
 #skills{
-    /* background-image:url(https://images.unsplash.com/photo-1514496959998-c01c40915c5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80); */
     background-color: #fff;
     background-attachment: fixed;
     height: 100vh;
@@ -109,10 +95,6 @@ section{
 }
 
 
-
-/* #projects{
-    background-color: #282525;
-} */
 
 #projects img{
     padding: 2%;
